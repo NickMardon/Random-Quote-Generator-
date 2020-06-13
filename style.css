@@ -1,0 +1,18 @@
+.container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.quoteBox {
+    background-color: #E1E1E1;
+    padding: 26px;
+    margin: 16px 0;
+}
+
+button {
+    padding: 12px !important;
+}
+
+button:hover {
+    font-size: 20px;
+}
