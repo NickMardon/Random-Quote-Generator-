@@ -1,11 +1,14 @@
 //Psuedo Code 
-//TODO: create array of quotes
-//TODO: create quotes as objects within the array with properties of quote and author
+//TODO: create array of quotes x
+//TODO: create quotes as objects within the array with properties of quote and author x
 //TODO: use math.random and for loop to randomly pick an object from the array
 //TODO: use textcontent to display arr.quote in quote box
 //TODO: use textcontent to display author in footer
 //TODO: add event listener to generate button to trigger randomQuote() function
 
+
+
+//Array of quotes as objects with prop quote and author
 var quoteArr = [
     {quote: "My fault, my failure, is not in the passions I have, but in my lack of control of them.", author: "Jack Kerouac"},
     {quote: "Some people feel the rain. Others just get wet", author: "Bob Marley"},
@@ -29,3 +32,16 @@ var quoteArr = [
     {quote: "It's the repetition of affirmations that leads to belief. And once that belief becomes a deep conviction, things begin to happen.", author: "Muhammad Ali"},
     {quote: "If you do not change direction, you may end up where you are heading.", author: "Lao Tzu"}
 ]
+// create DOM variables
+var quote = document.querySelector("#quote");
+var author = document.querySelector("#author");
+var generateBtn = document.querySelector("#generateBtn");
+ 
+//add event listener to generate button
+generateBtn.addEventListener("click", generateQuote);
+
+//generate quote function
+function generateQuote(){
+    
+}
+
